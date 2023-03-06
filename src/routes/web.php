@@ -32,5 +32,6 @@ require __DIR__.'/auth.php';
 
 Route::get('/quiz', function () {
     return view('quiz');
+    
 });
 
